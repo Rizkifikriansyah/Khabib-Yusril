@@ -1,0 +1,68 @@
+.product-detail {
+  padding: 60px 0; /* Increase top and bottom padding */
+  background-color: #000; /* Black background */
+  color: #fff; /* White text for contrast */
+}
+
+.product-detail h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  margin-top: 60px; /* Add more margin on top to push it further down */
+  color: #fff; /* White heading text */
+}
+
+.product-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.product-img img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2); /* Lighter shadow for visibility */
+}
+
+.product-info {
+  flex-basis: 50%;
+  padding: 40px;
+  text-align: left;
+}
+
+.product-info h3 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #fff; /* White product title */
+}
+
+.product-info .price {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #e74c3c; /* Red price text for emphasis */
+}
+
+.product-info p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #ddd; /* Light gray text for product description */
+}
+
+.product-info .btn {
+  background-color: var(--primary);
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.product-info .btn:hover {
+  background-color: #c0392b;
+}
